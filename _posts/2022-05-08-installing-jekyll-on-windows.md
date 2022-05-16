@@ -59,7 +59,9 @@ bundle exec jekyll serve --livereload
 
 ## Deploying the code to Github
 
-The starter repo that i'm using, seems to have everything I need, so to deploy the code and run the website, it should be to just push the code to the repo. I guess this is where try and error starts for this sequence. 
+The starter repo that i'm using, seems to have everything I need, so to deploy the code and run the website, it's just to follow a few more changes, go to my `.github/workflows/pages-deploy.yml.hook` and change the branch to trigger on `main` not `master`.
+
+Go to my Github repo -> settings -> pages, select my source a the new branch that is created automatically `gh-pages` and folder to ´/root´, done and done, push my code and the site is up and running. 
 
 
 ## What's next? 
