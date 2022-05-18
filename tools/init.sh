@@ -73,8 +73,8 @@ init_files() {
   fi
 
   # trace the gem lockfile on user-end
-  sed -i.$TEMP_SUFFIX "/Gemfile.lock/d" .gitignore
-  rm -f ".gitignore.$TEMP_SUFFIX"
+  #sed -i.$TEMP_SUFFIX "/Gemfile.lock/d" .gitignore
+  #rm -f ".gitignore.$TEMP_SUFFIX"
 
   # remove the other fies
   rm -f .travis.yml
