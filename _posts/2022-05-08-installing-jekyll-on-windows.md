@@ -1,7 +1,7 @@
 ---
 title: Installing Jekyll on windows
 author: andreas_gustafsson
-date: 2022-05-08 20:37:00 +0100
+date: 2022-05-08 20:37:00 +0200
 categories: [Jekyll, Tutorial]
 tags: [getting started, jekyll]
 ---
